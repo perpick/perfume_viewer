@@ -1,0 +1,17 @@
+{
+  "imports": {
+    "/index.html": {
+      "entry": [
+        "/dist/index.js"
+      ],
+      "css": [
+        "/dist/index.css",
+        "/favicon.ico"
+      ],
+      "js": [
+        "/dist/index.js"
+      ]
+    }
+  },
+  "generated": {}
+}
