@@ -1,4 +1,9 @@
 {
+  "name": "perfume-viewer",
+	"homepage": "https://perpick.github.io/perfume_viewer",
+	"description": "perfume-viewer",
+	"version": "0.1.0",
+	"license": "MIT",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
