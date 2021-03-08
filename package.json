@@ -13,7 +13,9 @@
     "format:json": "prettier --write \"**/*.json\"",
     "format:md": "prettier --write \"**/*.md\"",
     "format:ts": "prettier --write \"**/*.ts{,x}\"",
-    "lint": "eslint --fix --ext .js,.ts,.tsx && yarn format"
+    "lint": "eslint --fix --ext .js,.ts,.tsx && yarn format",
+    "deploy":"aws s3 sync ./dist s3://viewer.scentlab.kr --profile=perpick",
+    "invalidate": "aws cloudfront create-invalidation --profile=perpick--distribution-id EBD0OA6AWOWAW --paths / /index.html /error.html /service-worker.js /manifest.json /favicon.ico"
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
