@@ -201,7 +201,7 @@
       ]
     },
     "dist/Perfumes/PerfumeCard.js": {
-      "bytes": 1125,
+      "bytes": 1166,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -381,7 +381,7 @@
           "bytesInOutput": 68
         },
         "dist/Perfumes/PerfumeCard.js": {
-          "bytesInOutput": 479
+          "bytesInOutput": 483
         },
         "dist/Perfumes/Perfumes.js": {
           "bytesInOutput": 141
@@ -405,7 +405,7 @@
           "bytesInOutput": 87
         }
       },
-      "bytes": 288004
+      "bytes": 288008
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
