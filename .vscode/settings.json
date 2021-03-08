@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "svelte.plugin.html.enable": false,
+  "svelte.plugin.html.hover.enable": false,
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "tailwindCSS.emmetCompletions": true
+}

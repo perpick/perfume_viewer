@@ -2,7 +2,7 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: {
-    content: ["./src/**/*.svelte"],
+    content: ["./src/**/*.tsx"],
   },
   presets: [],
   darkMode: false,
